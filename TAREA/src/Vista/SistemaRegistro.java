@@ -88,7 +88,7 @@ public class SistemaRegistro {
 
                 default:
                     // Opción invalida
-                    System.out.println("Opcion Invalida ...intente denuevo \n");
+                    System.out.println("Opcion Invalida .intente denuevo \n");
             }
         } while (opcion != 5);  // El usuario elige opcion 5 sale del sistema
     }
