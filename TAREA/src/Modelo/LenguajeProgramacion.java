@@ -56,7 +56,7 @@ public class LenguajeProgramacion {
 
     // El retorno del toString con formato en ASCII
     return ast + "\n" +
-           "|                   Lenguaje de Programacion             |\n" +
+           "*                   Lenguaje de Programacion             *\n" +
            ast+ "\n" +
             
           
