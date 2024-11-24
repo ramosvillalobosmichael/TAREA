@@ -49,11 +49,23 @@ public class LenguajeProgramacion {
 
     // Override de toString()
     @Override
-    public String toString() {
-        return "Nombre: " + Nombre + 
-                ", Anio de Creacion: " + 
-                AnioCreacion + ", Caracteristica Principal: " + 
-                CaracteristicaPrincipal + ", Utilizacion: " + 
-                Utilizacion;
+   public String toString() {
+   
+    String ast = "***************************************************************************";
+    String cabeza = "* %-30s -> %-38s *"; // Formato para las columnas
+
+    // El retorno del toString con formato en ASCII
+    return ast + "\n" +
+           "|                   Lenguaje de Programacion             |\n" +
+           ast+ "\n" +
+            
+          
+            
+            
+           String.format(cabeza, " Nombre", Nombre) + "\n" +
+           String.format(cabeza, " Anio de Creacion", AnioCreacion) + "\n" +
+           String.format(cabeza, " Caracteristica Principal", CaracteristicaPrincipal) + "\n" +
+           String.format(cabeza, " Utilizacion", Utilizacion) + "\n" +
+           ast;
     }
 }
