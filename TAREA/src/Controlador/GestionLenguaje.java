@@ -55,11 +55,11 @@ public class GestionLenguaje {
     }
 
     // Método que imprime elementos del arreglo
-    public static void ImprimirLenguajes() {
+    public static void ImprimirLenguajes() { //utilizara el metodo toString de la Clase LenguajeProgramacionpara el formato
         LenguajeProgramacion[] imprelenguaje= GetArregloLenguajes();  // Obtener el arreglo de lenguajes usando el metodo GetArregloLenguajes
         for (LenguajeProgramacion forlenguaje : imprelenguaje) {
             if (forlenguaje != null) {  // Solo imprimir si el lenguaje no es null
-                System.out.println(forlenguaje);  // Imprimir la representación del objeto
+                System.out.println(forlenguaje);  // Imprimir la representación del objeto 
             }
         }
     }
